@@ -1,0 +1,182 @@
+body { 
+margin: 0;
+padding: 0;
+background-image: url(download\ \(17\).jpg);}
+
+header img{width: 100px;
+ border-radius: 30px;}
+
+.head{ display: flex;
+  justify-content: space-around;
+  background-color: #C9A98A;
+  align-items: center;
+padding: 10px 0px;
+margin: 0;}
+
+.head a{ text-decoration: none; 
+  font-family: Cormorant Garamond,Georgia, 'Times New Roman', Times, serif;
+  color: brown;
+  font-size: 1.2rem;
+margin-right: 40px;
+transition: color 0.3s ease;
+position: relative;}
+ 
+.head a:hover{ color: aliceblue;}
+.head a::after{content: '';
+ position: absolute;
+width: 0;
+left: 0;
+bottom: 3px;
+background-color: brown;
+height:1.5px;
+transition: width 0.3s ease-in;}
+
+.head a:hover::after{ width: 100%;}
+
+.hero{ background-color: #F5F5DC ;
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 100vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img img{ height: 100vh;
+ width: 100%;}
+
+ .message{text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;}
+
+.message h1,.message p,.message a{ margin-bottom: 30px;}
+.message p{ max-width: 500px;
+margin: 0 auto;}
+.message a{ margin-top: 30px; 
+  background-color: #C9A98A;
+border-radius: 10px;
+padding: 15px;
+text-decoration: none;
+ color: white;
+ width: 100px;
+ font-size: 1.2rem;
+ margin-left: auto;
+ margin-right: auto;
+ display: inline-block;}
+
+ .message a:hover{background-color: rgb(173, 65, 65);}
+ 
+ .story{ background-image: url(download\ \(15\).jpg);
+    height: 100vh;
+  background-size: cover;
+background-position: center;
+background-attachment: fixed;
+margin-top: 0;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.text{ background-color: #F0EBE1;
+ color: #2C2420; 
+ width: 500px;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+}
+
+.text a{ text-decoration: none;
+border-radius: 10px;
+background-color: #C9A98A;
+ color: white;
+  width: 80px;
+  padding: 15px;
+margin: auto;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.text a:hover{ background-color: rgb(172, 54, 54);
+}
+
+footer{ background-color: #5C3317  ;
+color: aliceblue;
+display: grid;
+justify-content: center;
+align-items: center;
+grid-template-columns: 1fr;margin: 0;
+font-size: 1.3rem;}
+.init img{width: 100px;
+  border-radius: 15px;
+margin: 20px;}
+  .logo{display: flex; flex-direction: row;justify-content: space-between;
+    margin: 20px;
+  }
+  .inout img {width: 80px;border-radius: 40px;padding: 20px;}
+
+  hr {
+  border: none;
+  border-top: 2px solid #C9A98A;
+  margin: 0 20px;
+}
+
+
+
+
+  .heading{background-image: url(my\ coffee\ time.jpg);
+  margin-top: 0;
+background-size: cover;
+background-position: center 70%;
+height: 100vh;
+position:relative;}
+
+.hh{width: 300px;
+margin: 0  auto;
+ border-color: #faf6f3;}
+
+h1{margin: 0;
+ text-align: center;
+font-family:'Courier New', Courier, monospace;
+ color: whitesmoke;
+font-size: 2.5rem;}
+.int{font-family: 'Courier New', Courier, monospace;
+color: white;
+text-align: center;}
+
+.about{display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+color: whitesmoke; 
+margin: 100px 0;
+}
+
+   .about p{ margin: 30px;}
+   .about a{text-decoration: none;
+   color: white;padding: 10px;}
+   .ending{padding: 20px;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+background-color: #5C4033;
+color: whitesmoke;}
+
+.list{display: flex;
+    gap: 15px;
+    align-items: center;
+  margin-top: 35px;
+   margin-left: 20px;
+   margin-right: 20px;
+ font-size: 1.1rem;
+ color: #faf6f3;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+    .dots{border-bottom: 2px dotted whitesmoke;
+     flex: 1;}
+
+     .para {padding: 10px 30px;
+    font-style: italic;
+  color: gold;
+ font-size: 0.9rem;
+}
+
+ .word{color: gold;}
+ .hs{ text-align: center;
+  margin-top: 30px;
+ color: aliceblue;}
+ .desserts{margin-bottom: 60px;}
